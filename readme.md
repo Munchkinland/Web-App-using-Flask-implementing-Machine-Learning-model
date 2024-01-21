@@ -1,7 +1,7 @@
 ## ML Deployment with Flask
 This project demonstrates the deployment of a machine learning model using Flask. The model is trained to predict the class of an Iris flower based on its sepal and petal dimensions.
 
-![_4a791d11-105b-4a4b-b701-8b1403c34f19](https://github.com/Munchkinland/Web-App-using-Flask-implementing-Machine-Learning-model/assets/92251234/c59c4b80-7e98-44b5-9d90-719fc7dc1017)
+<img width="670" alt="mlt" src="https://github.com/Munchkinland/Web-App-using-Flask-implementing-Machine-Learning-model/assets/92251234/2f8f57d6-5e71-405e-84e1-b372e7b1e9ff">
 
 # Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
