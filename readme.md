@@ -1,10 +1,10 @@
-#ML Deployment with Flask
+## ML Deployment with Flask
 This project demonstrates the deployment of a machine learning model using Flask. The model is trained to predict the class of an Iris flower based on its sepal and petal dimensions.
 
-Getting Started
+# Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-Prerequisites
+# Prerequisites
 Make sure you have the following installed:
 
 Python (3.7 or higher)
@@ -26,17 +26,17 @@ Enter the sepal and petal dimensions for prediction.
 
 Click the "Predict" button.
 
-app.py: This is the main file of the Flask application. It contains the configuration and routes for handling HTTP requests. Here, routes (/ and /predict) are associated with specific functions that render HTML templates and handle model predictions.
+✅app.py: This is the main file of the Flask application. It contains the configuration and routes for handling HTTP requests. Here, routes (/ and /predict) are associated with specific functions that render HTML templates and handle model predictions.
 
-templates: This directory contains HTML templates used to render the web pages of the application. In this case, there's only one template called index.html, which displays the input form and prediction results.
+✅templates: This directory contains HTML templates used to render the web pages of the application. In this case, there's only one template called index.html, which displays the input form and prediction results.
 
-static/css/style.css: This CSS file defines styles for the appearance of the user interface. It contains style rules for buttons, the layout of elements, and the overall look of the page. It's important to have this file in a folder named static so that Flask can find and serve it as a static asset.
+✅static/css/style.css: This CSS file defines styles for the appearance of the user interface. It contains style rules for buttons, the layout of elements, and the overall look of the page. It's important to have this file in a folder named static so that Flask can find and serve it as a static asset.
 
-model.pkl: This is the pre-trained machine learning model. In the train_model.py script, the Iris dataset is used to train a logistic regression model, and the resulting model is saved to this file. In app.py, this model is loaded and used to make predictions based on user-provided data through the web form.
+✅model.pkl: This is the pre-trained machine learning model. In the train_model.py script, the Iris dataset is used to train a logistic regression model, and the resulting model is saved to this file. In app.py, this model is loaded and used to make predictions based on user-provided data through the web form.
 
-train_model.py: This script is responsible for loading the Iris dataset, training a logistic regression model, and saving the trained model to the model.pkl file. This file is run once to train and save the model.
+✅train_model.py: This script is responsible for loading the Iris dataset, training a logistic regression model, and saving the trained model to the model.pkl file. This file is run once to train and save the model.
 
-requirements.txt: This file contains a list of Python libraries and their specific versions required to run the application. You can generate this file using the pip freeze > requirements.txt command after installing the necessary dependencies.
+✅requirements.txt: This file contains a list of Python libraries and their specific versions required to run the application. You can generate this file using the pip freeze > requirements.txt command after installing the necessary dependencies.
 
 The application follows a basic flow:
 
@@ -46,7 +46,7 @@ The server uses the loaded model (model.pkl) to make a prediction based on the p
 The prediction is displayed to the user on the same page.
 In summary, app.py acts as the main controller, HTML templates in the templates directory define the user interface, the CSS file (style.css) controls the visual style, and model.pkl contains the trained model for making predictions.
 
-#Project structure.
+# Project structure.
 
 📁 project-root
 |
